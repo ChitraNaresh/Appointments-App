@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.user-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+@media screen and (min-width: 496px) {
+  .user-card {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .user-card {
+    width: 23%;
+  }
+}
+.name-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-value-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.star-img {
+  height: 30px;
+  width: 30px;
+}
+.user-star {
+  background-color: transparent;
+  border: none;
+}
